@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!DOCTYPE employees [
+<!ELEMENT employees (employee+)>
+<!ELEMENT employee (name, position, address, city, state)>
+<!ATTLIST employee serial ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name 
+            age CDATA #REQUIRED 
+            gender CDATA #REQUIRED 
+            race CDATA #REQUIRED 
+            mstatus CDATA #REQUIRED>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+]>
+
+<employees>
+    <employee serial="emp1">
+        <name age="37" gender="male" race="indian" mstatus="married"> Ram </name>
+        <position> Software Engineer </position>
+        <address> Boring Road </address>
+        <city> Patna </city>
+        <state> Bihar </state>
+    </employee>
+</employees>
