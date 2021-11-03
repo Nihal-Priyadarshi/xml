@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!DOCTYPE class SYSTEM "employee_external.dtd">
+
+<class>
+    <student>
+        <roll sn="1"> 19632 </roll>
+        <name>
+            <fname> Nihal </fname>
+            <lname> Priyadarshi </lname>
+        </name>
+        <semester sn="v"> Vth </semester>
+    </student>
+    <student>
+        <roll sn="1"> 19642 </roll>
+        <name>
+            <fname> Abhishek </fname>
+            <lname> Anand </lname>
+        </name>
+        <semester sn="v"> Vth </semester>
+    </student>
+</class>

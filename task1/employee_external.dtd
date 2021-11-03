@@ -1,0 +1,9 @@
+<!ELEMENT class (student+)>
+<!ELEMENT student (roll, name, semester)>
+<!ATTLIST roll sn ID #REQUIRED>
+<!ELEMENT roll (#PCDATA)>
+<!ELEMENT name (fname, lname)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ATTLIST semester sn ID #REQUIRED>
+<!ELEMENT semester (#PCDATA)>
