@@ -1,0 +1,13 @@
+<!ELEMENT employees (employee+)>
+<!ELEMENT employee (name, position, address, city, state)>
+<!ATTLIST employee serial ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name 
+            age CDATA #REQUIRED 
+            gender CDATA #REQUIRED 
+            race CDATA #REQUIRED 
+            mstatus CDATA #REQUIRED>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>

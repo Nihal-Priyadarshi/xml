@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!DOCTYPE employees SYSTEM "employee_external.dtd">
+
+<employees>
+    <employee serial="emp1">
+        <name age="37" gender="male" race="indian" mstatus="married"> Ram </name>
+        <position> Software Engineer </position>
+        <address> Boring Road </address>
+        <city> Patna </city>
+        <state> Bihar </state>
+    </employee>
+</employees>
