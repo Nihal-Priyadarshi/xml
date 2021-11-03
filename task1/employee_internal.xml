@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!DOCTYPE class[
+<!ELEMENT class (student+)>
+<!ELEMENT student (roll, name, semester)>
+<!ATTLIST roll sn ID #REQUIRED>
+<!ELEMENT roll (#PCDATA)>
+<!ELEMENT name (fname, lname)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ATTLIST semester sn ID #REQUIRED>
+<!ELEMENT semester (#PCDATA)>
+]>
+
+<class>
+    <student>
+        <roll sn="1"> 19632 </roll>
+        <name>
+            <fname> Nihal </fname>
+            <lname> Priyadarshi </lname>
+        </name>
+        <semester sn="v"> Vth </semester>
+    </student>
+    <student>
+        <roll sn="1"> 19642 </roll>
+        <name>
+            <fname> Abhishek </fname>
+            <lname> Anand </lname>
+        </name>
+        <semester sn="v"> Vth </semester>
+    </student>
+</class>
